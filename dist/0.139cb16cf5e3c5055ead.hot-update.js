@@ -1,0 +1,10 @@
+webpackHotUpdate(0,{
+
+/***/ 486:
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(72);\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar SearchBar = function SearchBar(_ref) {\n\tvar _onChange = _ref.onChange;\n\tvar _onSubmit = _ref.onSubmit;\n\treturn _react2.default.createElement(\n\t\t\"form\",\n\t\t{ onSubmit: function onSubmit(e) {\n\t\t\t\treturn _onSubmit(e.target.value);\n\t\t\t} },\n\t\t_react2.default.createElement(\"input\", { type: \"text\", onChange: function onChange(e) {\n\t\t\t\treturn _onChange(yo);\n\t\t\t} }),\n\t\t_react2.default.createElement(\"input\", { type: \"submit\", value: \"submit\" })\n\t);\n};\n\nSearchBar.propTypes = {\n\tonChange: _react.PropTypes.func.isRequired,\n\tonSubmit: _react.PropTypes.func.isRequired\n};\n\nexports.default = SearchBar;//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNDg2LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2NvbXBvbmVudHMvU2VhcmNoQmFyLmpzP2U5MmMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IFByb3BUeXBlcyB9IGZyb20gJ3JlYWN0J1xyXG5cclxuXHJcbmNvbnN0IFNlYXJjaEJhciA9ICh7IG9uQ2hhbmdlLCBvblN1Ym1pdCB9KSA9PiAoXHJcblx0XHJcblx0PGZvcm0gb25TdWJtaXQ9e2UgPT4gb25TdWJtaXQoZS50YXJnZXQudmFsdWUpfT5cclxuXHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIG9uQ2hhbmdlPXtlID0+IG9uQ2hhbmdlKHlvKX0vPlxyXG5cdFx0PGlucHV0IHR5cGU9XCJzdWJtaXRcIiB2YWx1ZT1cInN1Ym1pdFwiLz5cclxuXHQ8L2Zvcm0+XHJcblx0XHJcblxyXG4pXHJcblxyXG5TZWFyY2hCYXIucHJvcFR5cGVzID0ge1xyXG5cdG9uQ2hhbmdlOiBQcm9wVHlwZXMuZnVuYy5pc1JlcXVpcmVkLFxyXG5cdG9uU3VibWl0OiBQcm9wVHlwZXMuZnVuYy5pc1JlcXVpcmVkXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFNlYXJjaEJhclxyXG5cblxuXG4vKiogV0VCUEFDSyBGT09URVIgKipcbiAqKiBjb21wb25lbnRzL1NlYXJjaEJhci5qc1xuICoqLyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7QUFDQTs7Ozs7QUFFQTtBQUFBO0FBQUE7QUFBQTtBQUVBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFBQTtBQUFBO0FBQ0E7QUFGQTtBQUZBO0FBQ0E7QUFTQTtBQUNBO0FBQ0E7QUFGQTtBQUNBO0FBSUEiLCJzb3VyY2VSb290IjoiIn0=");
+
+/***/ }
+
+})

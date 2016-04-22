@@ -1,0 +1,10 @@
+webpackHotUpdate(0,{
+
+/***/ 161:
+/***/ function(module, exports) {
+
+	eval("\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n//Constants\nvar SEARCH_TYPING = exports.SEARCH_TYPING = \"SEARCH_TYPING\";\nvar SEARCH_SUBMIT = exports.SEARCH_SUBMIT = \"SEARCH_SUBMIT\";\n\n//Action Creators\nvar autofillSearch = exports.autofillSearch = function autofillSearch(value) {\n  console.log(\"Hi!\");\n  return {\n    type: SEARCH_TYPING,\n    autofillTitle: \"Skepta - Shutdown\",\n    autofillLink: \"https://www.youtube.com/watch?v=MQOG5BkY2Bc\"\n\n  };\n};\n\nvar resultsSearch = exports.resultsSearch = function resultsSearch(value) {\n\n  return {\n    type: SEARCH_SUBMIT,\n    value: value\n  };\n};//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTYxLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2FjdGlvbnMvaW5kZXguanM/ZTlhOCJdLCJzb3VyY2VzQ29udGVudCI6WyIvL0NvbnN0YW50c1xyXG5leHBvcnQgY29uc3QgU0VBUkNIX1RZUElORyA9IFwiU0VBUkNIX1RZUElOR1wiXHJcbmV4cG9ydCBjb25zdCBTRUFSQ0hfU1VCTUlUID0gXCJTRUFSQ0hfU1VCTUlUXCJcclxuXHJcbi8vQWN0aW9uIENyZWF0b3JzXHJcbmV4cG9ydCBjb25zdCBhdXRvZmlsbFNlYXJjaCA9ICh2YWx1ZSkgPT4ge1xyXG5cdGNvbnNvbGUubG9nKFwiSGkhXCIpXHJcbiAgcmV0dXJuIHtcclxuICAgIHR5cGU6IFNFQVJDSF9UWVBJTkcsXHJcblx0YXV0b2ZpbGxUaXRsZTogXCJTa2VwdGEgLSBTaHV0ZG93blwiLFxyXG5cdGF1dG9maWxsTGluazogXCJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU1RT0c1QmtZMkJjXCIgIFxyXG5cdFxyXG4gIH1cclxufVxyXG5cclxuZXhwb3J0IGNvbnN0IHJlc3VsdHNTZWFyY2ggPSAodmFsdWUpID0+IHtcclxuXHRcclxuICByZXR1cm4ge1xyXG4gICAgdHlwZTogU0VBUkNIX1NVQk1JVCxcclxuICAgIHZhbHVlXHJcbiAgfVxyXG59XHJcblxuXG5cbi8qKiBXRUJQQUNLIEZPT1RFUiAqKlxuICoqIGFjdGlvbnMvaW5kZXguanNcbiAqKi8iXSwibWFwcGluZ3MiOiI7Ozs7OztBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUpBO0FBTUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFGQTtBQUlBIiwic291cmNlUm9vdCI6IiJ9");
+
+/***/ }
+
+})

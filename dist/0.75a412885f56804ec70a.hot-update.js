@@ -1,0 +1,10 @@
+webpackHotUpdate(0,{
+
+/***/ 486:
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(72);\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar SearchBar = function SearchBar(_ref) {\n\tvar onChange = _ref.onChange;\n\tvar _onSubmit = _ref.onSubmit;\n\treturn _react2.default.createElement(\n\t\t\"form\",\n\t\t{ onSubmit: function onSubmit(e) {\n\t\t\t\treturn _onSubmit(e.target.value);\n\t\t\t} },\n\t\t_react2.default.createElement(\"input\", { type: \"text\", onChange: function onChange(e) {\n\t\t\t\treturn console.log(\"yo\");\n\t\t\t} }),\n\t\t_react2.default.createElement(\"input\", { type: \"submit\", value: \"submit\" })\n\t);\n};\n\nSearchBar.propTypes = {\n\tonChange: _react.PropTypes.func.isRequired,\n\tonSubmit: _react.PropTypes.func.isRequired\n};\n\nexports.default = SearchBar;//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNDg2LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2NvbXBvbmVudHMvU2VhcmNoQmFyLmpzP2U5MmMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IFByb3BUeXBlcyB9IGZyb20gJ3JlYWN0J1xyXG5cclxuXHJcbmNvbnN0IFNlYXJjaEJhciA9ICh7IG9uQ2hhbmdlLCBvblN1Ym1pdCB9KSA9PiAoXHJcblx0XHJcblx0PGZvcm0gb25TdWJtaXQ9e2UgPT4gb25TdWJtaXQoZS50YXJnZXQudmFsdWUpfT5cclxuXHRcdDxpbnB1dCB0eXBlPVwidGV4dFwiIG9uQ2hhbmdlPXtlID0+IGNvbnNvbGUubG9nKFwieW9cIil9Lz5cclxuXHRcdDxpbnB1dCB0eXBlPVwic3VibWl0XCIgdmFsdWU9XCJzdWJtaXRcIi8+XHJcblx0PC9mb3JtPlxyXG5cdFxyXG5cclxuKVxyXG5cclxuU2VhcmNoQmFyLnByb3BUeXBlcyA9IHtcclxuXHRvbkNoYW5nZTogUHJvcFR5cGVzLmZ1bmMuaXNSZXF1aXJlZCxcclxuXHRvblN1Ym1pdDogUHJvcFR5cGVzLmZ1bmMuaXNSZXF1aXJlZFxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBTZWFyY2hCYXJcclxuXG5cblxuLyoqIFdFQlBBQ0sgRk9PVEVSICoqXG4gKiogY29tcG9uZW50cy9TZWFyY2hCYXIuanNcbiAqKi8iXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQ0E7Ozs7O0FBRUE7QUFBQTtBQUFBO0FBQUE7QUFFQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBRkE7QUFGQTtBQUNBO0FBU0E7QUFDQTtBQUNBO0FBRkE7QUFDQTtBQUlBIiwic291cmNlUm9vdCI6IiJ9");
+
+/***/ }
+
+})

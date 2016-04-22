@@ -1,0 +1,17 @@
+webpackHotUpdate(0,{
+
+/***/ 209:
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _redux = __webpack_require__(138);\n\nvar _todos = __webpack_require__(210);\n\nvar _todos2 = _interopRequireDefault(_todos);\n\nvar _search = __webpack_require__(493);\n\nvar _search2 = _interopRequireDefault(_search);\n\nvar _visibilityFilter = __webpack_require__(492);\n\nvar _visibilityFilter2 = _interopRequireDefault(_visibilityFilter);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar todoApp = (0, _redux.combineReducers)({\n  todos: _todos2.default,\n  visibilityFilter: _visibilityFilter2.default,\n  search: _search2.default\n});\n\nexports.default = todoApp;//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMjA5LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3JlZHVjZXJzL2luZGV4LmpzP2ZmNjYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29tYmluZVJlZHVjZXJzIH0gZnJvbSAncmVkdXgnXHJcbmltcG9ydCB0b2RvcyBmcm9tICcuL3RvZG9zJ1xyXG5pbXBvcnQgc2VhcmNoIGZyb20gJy4vc2VhcmNoJ1xyXG5pbXBvcnQgdmlzaWJpbGl0eUZpbHRlciBmcm9tICcuL3Zpc2liaWxpdHlGaWx0ZXInXHJcblxyXG5jb25zdCB0b2RvQXBwID0gY29tYmluZVJlZHVjZXJzKHtcclxuICB0b2RvcyxcclxuICB2aXNpYmlsaXR5RmlsdGVyLFxyXG5cdHNlYXJjaFxyXG59KVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgdG9kb0FwcFxyXG5cblxuXG4vKiogV0VCUEFDSyBGT09URVIgKipcbiAqKiByZWR1Y2Vycy9pbmRleC5qc1xuICoqLyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7QUFDQTtBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7Ozs7O0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFIQTtBQUNBO0FBS0EiLCJzb3VyY2VSb290IjoiIn0=");
+
+/***/ },
+
+/***/ 493:
+/***/ function(module, exports) {
+
+	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar initialState = {\n  page: \"home\",\n  payload: {\n    autofillResults: []\n  }\n};\nvar search = function search(state, action) {\n  switch (action.type) {\n    case 'SEARCH_TYPING':\n      //\t\t  var transformedState = {...state};\n      //\t\t  transformedState.payload.autofillResults = action.autofillResults;\n      return Object.assign({}, state, {\n        autofillResults: action.autofillResults\n      });\n    case 'SEARCH_SUBMIT':\n\n    default:\n      return state;\n  }\n};\n\nexports.default = search;//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNDkzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3JlZHVjZXJzL3NlYXJjaC5qcz9iNDE4Il0sInNvdXJjZXNDb250ZW50IjpbInZhciBpbml0aWFsU3RhdGU9e1xyXG5cdHBhZ2U6IFwiaG9tZVwiLFxyXG5cdHBheWxvYWQ6e1xyXG5cdFx0YXV0b2ZpbGxSZXN1bHRzOltdXHJcblx0fVxyXG59XHJcbmNvbnN0IHNlYXJjaCA9IChzdGF0ZSwgYWN0aW9uKSA9PiB7XHJcbiAgc3dpdGNoIChhY3Rpb24udHlwZSkge1xyXG4gICAgY2FzZSAnU0VBUkNIX1RZUElORyc6XHJcbi8vXHRcdCAgdmFyIHRyYW5zZm9ybWVkU3RhdGUgPSB7Li4uc3RhdGV9O1xyXG4vL1x0XHQgIHRyYW5zZm9ybWVkU3RhdGUucGF5bG9hZC5hdXRvZmlsbFJlc3VsdHMgPSBhY3Rpb24uYXV0b2ZpbGxSZXN1bHRzOyBcclxuICByZXR1cm4gT2JqZWN0LmFzc2lnbih7fSwgc3RhdGUsIHtcclxuICAgICAgICBhdXRvZmlsbFJlc3VsdHM6IGFjdGlvbi5hdXRvZmlsbFJlc3VsdHNcclxuICAgICAgfSlcclxuICBcdGNhc2UgJ1NFQVJDSF9TVUJNSVQnOlxyXG5cdFx0ICBcclxuICAgIGRlZmF1bHQ6XHJcbiAgICAgIHJldHVybiBzdGF0ZVxyXG4gIH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgc2VhcmNoXHJcblxuXG5cbi8qKiBXRUJQQUNLIEZPT1RFUiAqKlxuICoqIHJlZHVjZXJzL3NlYXJjaC5qc1xuICoqLyJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQURBO0FBRkE7QUFNQTtBQUNBO0FBQ0E7OztBQUdBO0FBQ0E7QUFEQTtBQUdBO0FBQ0E7QUFDQTtBQUNBO0FBVkE7QUFZQTtBQUNBOyIsInNvdXJjZVJvb3QiOiIifQ==");
+
+/***/ }
+
+})
