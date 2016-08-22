@@ -7,8 +7,9 @@ import search from './reducers'
 import App from './components/App'
 
 let store = createStore(search, {
-	songTitle:"title",
-	songLink: "yo"
+	page:"home",
+	fetching: "false",
+	autofillResult: []
 })
 export default store
 render(

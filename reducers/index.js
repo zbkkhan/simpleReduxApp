@@ -6,8 +6,7 @@ function search(state = {} , action) {
   switch (action.type) {
     case SEARCH_TYPING:
       return Object.assign({}, state, {
-            songTitle: action.autofillTitle,
-		  	songLink: action.autofillLink
+            autofillResult: action.autofillResults
           })
     default:
       return state

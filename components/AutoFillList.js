@@ -1,18 +1,38 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes, Component } from 'react'
 import store from '../index.js'
 
 
-const AutoFillList = ({songTitle, songLink, onClick}) => (
+class AutoFillList extends Component {
+	constructor (props) {
+		super(props)
+	}
+	render(){
+		
+		if(this.props.songs.length > 0){
+			let list = this.props.songs.map((song) => {
+				
+				if(typeof(song) != "undefined"){
+				return(<a href={song.link}>
+  					<li >{song.title}</li>
+  					</a>)	
+				}
+				
+			})
+			return(<div>{list}</div>)
+		}
+		else{
+			return(<div></div>)
+		}
+		
+		
+	}
 	
-	<a href={songLink}>
-  	<li onClick={onClick}>{songTitle}</li>
-  	</a>
-)
+}
+	
 
 AutoFillList.propTypes = {
 	onClick: PropTypes.func.isRequired,
-  	songTitle: PropTypes.string.isRequired,
-	songLink: PropTypes.string.isRequired
+  	songs: PropTypes.array.isRequired
 }
 
 export default AutoFillList

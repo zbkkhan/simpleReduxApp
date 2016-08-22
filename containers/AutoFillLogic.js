@@ -3,9 +3,9 @@ import { connect } from 'react-redux'
 import AutoFillList from '../components/AutoFillList'
 
 const mapStateToProps = (state) => {
+	
 	return{
-		songTitle: state.songTitle,
-		songLink: state.songLink
+		songs: state.autofillResult
 	}
 }
 
